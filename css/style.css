@@ -1,0 +1,37 @@
+body {
+    background-image: url(https://bit.ly/3wct5fJ);
+
+    background-position: center;
+
+    background-size: 400px;
+
+    background-color: rgb(206, 137, 228);
+
+    background-attachment:unset;
+
+    height: 100vh
+}
+
+*/ configurção do título */
+h1 {
+    color: salmon;
+}
+#pinky {
+    color: rgb(245, 145, 206);
+    font-size: 50px;
+    text-transform:capitalize;
+    text-align-last: center;
+}
+h3 {
+    color: rgb(235, 43, 235);
+    font-family: fantasy;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align-last: center;
+}
+h4 {
+    color: rgb(227, 232, 235);
+    color-interpolation-filters: linearRGB;
+    text-align-last: center;
+    font-size: 100px;
+}
