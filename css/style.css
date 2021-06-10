@@ -12,9 +12,9 @@ body {
     height: 100vh
 }
 
-*/ configurção do título */
 h1 {
-    color: salmon;
+    color: aliceblue;
+    text-align: center;
 }
 #pinky {
     color: rgb(245, 145, 206);
