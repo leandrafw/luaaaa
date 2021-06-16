@@ -1,37 +1,61 @@
-body {
-    background-image: url(https://bit.ly/3wct5fJ);
 
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English&family=Press+Start+2P&display=swap');
+
+html * {
+    margin: 0%;
+}
+
+body { 
+    background-size: 100%;
+    /* */
+    background-repeat: no-repeat;
+    /* */
     background-position: center;
-
-    background-size: 400px;
-
-    background-color: rgb(206, 137, 228);
-
+    /* */
     background-attachment:unset;
 
-    height: 100vh
+    background-color: #d88cea;
+    height: 50vh;
 }
 
-h1 {
-    color: aliceblue;
+#cabecalho {
+    background-image: url(https://bit.ly/2RWd4eX);
+    height: 30vh;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: azure;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#conteudo {
+    height: 100vh;
+    font-size: 20px;
+    font-family: 'IM Fell English', serif;
+    margin-top: 10vh;
+    margin-inline-start: 12vh;
+    margin-inline-end: 12vh;
+}
+#div {
+    font-size: 20px;
+    font-family: 'IM Fell English', serif;
+    align-items: flex-start;
+    margin-top: 10vh;
+}
+
+#rodape {
+    height: 100vh;
+    background-image: url(https://bit.ly/3vqxaLK);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    color: white;
+    font-size: 15px;
+    font-family: 'Press Start 2P', cursive;
     text-align: center;
-    font-size: 60px;
 }
-#pinky {
-    color: rgb(245, 145, 206);
-    font-size: 50px;
-    text-transform:capitalize;
-    text-align-last: center;
-}
-h3 {
-    color: rgb(235, 43, 235);
-    font-family: fantasy;
-    font-size: 40px;
-    text-transform: uppercase;
-    text-align-last: center;
-}
-h4 {
-    color:rgb(249, 249, 249);
-    text-align-last: center;
-    font-size: 70px;
+.icones {
+    width: 100px;
 }
