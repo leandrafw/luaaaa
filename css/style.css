@@ -37,13 +37,11 @@ body {
     font-family: 'IM Fell English', serif;
     margin-top: 10vh;
     margin-inline-start: 12vh;
-    margin-inline-end: 12vh;
 }
 #div {
     font-size: 20px;
     font-family: 'IM Fell English', serif;
     align-items: flex-start;
-    margin-top: 10vh;
 }
 
 #rodape {
@@ -55,6 +53,7 @@ body {
     font-size: 15px;
     font-family: 'Press Start 2P', cursive;
     text-align: center;
+    margin: 0%;
 }
 .icones {
     width: 100px;
